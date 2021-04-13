@@ -15,7 +15,9 @@ namespace VariablesCS
             var fullName = "Justin Marin";
 
             // Create a variable called today and set it equal to today's date.
-            var today = "Tuesday, April 13, 2021";
+            // Adventure Mode ... 
+            // ... Use the type DateTime to represent the date variables.
+            var today = DateTime.Now;
 
             // Use Console.WriteLine and your variables, numberOfCupsOfCoffee, fullName, and today, 
             // to output all three on one line.
@@ -24,11 +26,22 @@ namespace VariablesCS
             // Practice Getting Input From the User.
 
             // Ask the user for their name and store it in a variable named userName.
+            // Adventure Mode ...
+            // ... Add some logic to your program that prints 
+            // ... a different, special, greeting to the user if their name happens to be Alice.
             Console.WriteLine("Hey there, what's your name? ");
             var userName = Console.ReadLine();
 
-            // Print out a greeting to the user, using their name.
-            Console.WriteLine($"Well, it's certainly nice to meet you, {userName}!");
+            if (userName == "Alice")
+            {
+                Console.WriteLine("I'M LATE! I'M LATE! I'M LATE! (a little white rabbit runs away)");
+            }
+            else
+            {
+                // Print out a greeting to the user, using their name.
+                Console.WriteLine($"Well, it's certainly nice to meet you, {userName}!");
+
+            }
 
             // Practice Getting Different Types of Input From the User.
             // Ask the user to input two numbers.

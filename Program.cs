@@ -6,8 +6,6 @@ namespace VariablesCS
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to C#");
-
             // Practice Creating Variables.
 
             // Create a variable that stores the numberOfCupsOfCoffee that you drink every day.

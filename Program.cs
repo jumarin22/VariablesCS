@@ -4,8 +4,9 @@ namespace VariablesCS
 {
     class Program
     {
-        static void Main(string[] args)
+        static void runVariablesCS()
         {
+
             // Practice Creating Variables.
 
             // Create a variable that stores the numberOfCupsOfCoffee that you drink every day.
@@ -87,6 +88,14 @@ namespace VariablesCS
             Console.WriteLine($"When you divide {firstOperand} by {secondOperand}, you get {quotient}");
             Console.WriteLine($"The remainder of {firstOperand} and {secondOperand} is {remainder}");
 
+
+        }
+        static void Main(string[] args)
+        {
+            // Epic Mode ...
+            // ... Move all of your code to a separate method (but keep it in the same file) 
+            // ... and invoke it from the Main method.
+            runVariablesCS();
         }
     }
 }

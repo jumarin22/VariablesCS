@@ -12,14 +12,14 @@ namespace VariablesCS
             var numberOfCupsOfCoffee = 0.5;
 
             // Create a variable called fullName and set it equal to your full name.
-            var fullName = "Justin Frank Marin the Seventeenth";
+            var fullName = "Justin Marin";
 
             // Create a variable called today and set it equal to today's date.
             var today = "Tuesday, April 13, 2021";
 
             // Use Console.WriteLine and your variables, numberOfCupsOfCoffee, fullName, and today, 
             // to output all three on one line.
-            Console.WriteLine($"{numberOfCupsOfCoffee} were consumed by {fullName} on this glorious day of {today}");
+            Console.WriteLine($"{numberOfCupsOfCoffee} cups of coffee were consumed by {fullName} on this glorious day of {today}");
 
             // Practice Getting Input From the User.
 

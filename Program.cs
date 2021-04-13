@@ -36,9 +36,9 @@ namespace VariablesCS
             // store them in variables named firstNumberAsString and secondNumberAsString.
             Console.Write($"So, {userName}, tell me: What's your favorite number? ");
             var firstNumberAsString = Console.ReadLine();
-            Console.Write($"{firstNumberAsString}? That's a terrible number! Name a different one: ");
+            Console.Write($"{firstNumberAsString}? What a great number! Name a different one: ");
             var secondNumberAsString = Console.ReadLine();
-            Console.WriteLine($"{secondNumberAsString}? ... You know what, nevermind, let's move on.");
+            Console.WriteLine($"{secondNumberAsString}? Alright! let's move on.");
 
             // Converting String Input Into Numbers.
 

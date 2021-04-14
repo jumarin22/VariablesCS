@@ -82,9 +82,8 @@ namespace VariablesCS
             Console.WriteLine($"When you multiply {firstOperand} by {secondOperand}, you get {product}");
             Console.WriteLine($"When you divide {firstOperand} by {secondOperand}, you get {quotient}");
             Console.WriteLine($"The remainder of {firstOperand} and {secondOperand} is {remainder}");
-
-
         }
+
         static void Main(string[] args)
         {
             // Epic Mode ...

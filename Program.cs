@@ -4,7 +4,7 @@ namespace VariablesCS
 {
     class Program
     {
-        static void runVariablesCS()
+        static void RunVariablesCS()
         {
 
             // Practice Creating Variables.
@@ -89,7 +89,7 @@ namespace VariablesCS
             // Epic Mode ...
             // ... Move all of your code to a separate method (but keep it in the same file) 
             // ... and invoke it from the Main method.
-            runVariablesCS();
+            RunVariablesCS();
         }
     }
 }
